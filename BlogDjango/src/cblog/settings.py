@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'cblog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'blogdjangodb', # database name in RDS is written here
+        'NAME': 'djangodatabase', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': config('PASSWORD'),
-        'HOST': 'blogdjangodb.cb6wwq4okpvf.us-east-1.rds.amazonaws.com',  # database endpoint is written here
+        'HOST': 'djangodatabase.cb6wwq4okpvf.us-east-1.rds.amazonaws.com',  # database endpoint is written here
         'PORT': '3306' # database port is written here
     }
 }
