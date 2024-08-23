@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'BlogDjangoDB', # database name in RDS is written here
         'USER': 'admin', # database master username in RDS is written here
         'PASSWORD': config('PASSWORD'),
-        'HOST': '',  # database endpoint is written here
+        'HOST': ,  # database endpoint is written here
         'PORT': '3306' # database port is written here
     }
 }
